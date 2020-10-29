@@ -1,1 +1,169 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+p {
+    margin: 0;
+    /* il p 3andha margin donc bsh na7ih just nrodo 0 f css*/
+}
+header{
+    width: 100%;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+a {
+    text-decoration: none;
+    color: #2A3234;
+}
+.nav-items {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.nav-item{
+    list-style: none;
+    font-weight: 200;
+    padding: 25px 0;
+}
+/* home */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding: 160px 0;
+}
+.home-text{
+    width: 700px;
+}
+.title {
+    font-size: 72px;
+    color: #2A3234;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.home-description {
+    font-size: larger;
+    line-height: 35px;
+}
+#home img{
+    height: 250px;
+}
+
+/* services */
+#services{
+    height: 100%;
+    background-color: #2A3234;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#services .title{
+    color: #ffffff;
+}
+
+.services{
+    width: 90vw;
+}
+
+.service{
+    display: inline-flex;
+    margin: 50px 60px;
+}
+.service div {
+    margin-left: 40px;
+}
+.service-title {
+    font-size: 36px;
+    font-weight: 500;
+}
+.service-text {
+    font-size: large;
+    width: 250px;
+    line-height: 30px;
+}
+.service img {
+    height: 200px;
+}
+
+/* founders */
+#founders {
+    padding: 50px 0px;
+}
+#founders .title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.founders{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.founder{
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    box-shadow: 0 0 30px #2a323475;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: ease 1s background-color ;
+}
+.founder:hover{
+    background-color: #2A3234;
+    color: white;
+}
+
+.founder-image {
+    background-color: #2A3234;
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+}
+.founder-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.founder-text{
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+footer{
+    margin-top: 70px;
+}
+.upper_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.upper_footer p {
+    font-size: 50px;
+    font-weight: 600;
+    color: #2A3234;
+}
+.socials *{
+    height: 30px;
+}
+.lower_footer{
+    background: #2A3234;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 32px;
+}
